@@ -1,0 +1,259 @@
+{
+    "listaDeLaCompra": [
+        {
+            "supermercado" : "Froiz",
+            "direccion" : "C. de Rodríguez Marín, 63, 28002 Madrid",
+            "geolocalizacion" : [
+                "40.460607203644464" , 
+                "-3.676297401329864"
+            ],
+        
+            "secciones" : [
+                {
+                    "seccion": "panaderia",
+                    "productos": [
+                        {
+                            "nombre" : "pan",
+                            "Descripcion" : "baguette",
+                            "perecedero": "true",
+                            "cantidad": "4",
+                            "unidad": "unidad",
+                            "precioVta": 0.90,
+                            "oferta": "true",
+                            "tipoOferta": "2 x 1",
+                            "precioOferta" : "",
+                            "duracionOferta": [
+                                "27/05/2023",
+                                "05/06/2023"
+                            ],
+                            "habitual": "true",
+                            "adquirido": "true"
+                        },
+                        {
+                            "nombre" : "magdalenas",
+                            "Descripcion" : "magdalenas martinez",
+                            "perecedero": "true",
+                            "cantidad": "1",
+                            "unidad": "bolsa",
+                            "precioVta": 2.25,
+                            "oferta": "false",
+                            "tipoOferta": "",
+                            "precioOferta" : "",
+                            "duracionOferta": [],
+                            "habitual": "false",
+                            "adquirido": "false"
+                        }
+                    ]
+                    },
+                {
+                "seccion": "fruteria",
+                "productos": [
+                    {
+                        "nombre" : "Aguacates",
+                        "Descripcion" : "Aguacates",
+                        "perecedero": "true",
+                        "cantidad": "4",
+                        "unidad": "pieza",
+                        "precioVta": 1.31,
+                        "oferta": "false",
+                        "tipoOferta": "",
+                        "precioOferta" : "",
+                        "duracionOferta": [],
+                        "habitual": "false",
+                        "adquirido": "false"
+                    },
+                    {
+                        "nombre" : "Tomate",
+                        "Descripcion" : "Tomate rama huerta de Murcia",
+                        "perecedero": "true",
+                        "cantidad": "6",
+                        "unidad": "pieza",
+                        "precioVta": 1.25,
+                        "oferta": "false",
+                        "tipoOferta": "",
+                        "precioOferta" : "",
+                        "duracionOferta": [],
+                        "habitual": "false",
+                        "adquirido": "false"
+                    }
+                ]
+                },
+                {
+                    "seccion": "carniceria",
+                    "productos": [
+                        {
+                            "nombre" : "Pechugas de pollo",
+                            "Descripcion" : "Pechugas de pollo envasadas",
+                            "perecedero": "true",
+                            "cantidad": "1",
+                            "unidad": "paquete",
+                            "precioVta": 6.27,
+                            "oferta": "true",
+                            "tipoOferta": "descuento",
+                            "precioOferta" : 5.80,
+                            "duracionOferta": [
+                                "20/05/2023",
+                                "05/06/2023"
+                            ],
+                            "habitual": "false",
+                            "adquirido": "false"
+                        },
+        
+                        {
+                            "nombre" : "Hamburguesas",
+                            "Descripcion" : "Hamburguesa de pavo",
+                            "perecedero": "true",
+                            "cantidad": "2",
+                            "unidad": "paquete de 4",
+                            "precioVta": 4.30,
+                            "oferta": "false",
+                            "tipoOferta": "",
+                            "precioOferta" : "",
+                            "duracionOferta": [],
+                            "habitual": "false",
+                            "adquirido": "false"
+                        },
+                        {
+                            "nombre" : "Salchichas",
+                            "Descripcion" : "Salchichas frankfurt",
+                            "perecedero": "true",
+                            "cantidad": "2",
+                            "unidad": "pack de 3",
+                            "precioVta": 3.30,
+                            "oferta": "false",
+                            "tipoOferta": "",
+                            "precioOferta" : "",
+                            "duracionOferta": [],
+                            "habitual": "true",
+                            "adquirido": "false"
+                        }
+                    ]
+                }
+        
+            ]
+        },
+        {
+            "supermercado" : "Mercadona",
+            "direccion" : "Pl. de los Reyes Magos, s/n, 28007 Madrid",
+            "geolocalizacion" : [
+                "40.41215635658464", 
+                "-3.6761069333048404"
+            ],
+        
+            "secciones" : [
+                {
+                    "seccion": "lacteos",
+                    "productos": [
+                        {
+                            "nombre" : "leche",
+                            "Descripcion" : "leche semidesnatada",
+                            "perecedero": "true",
+                            "cantidad": "12",
+                            "unidad": "unidad",
+                            "precioVta": 0.73,
+                            "oferta": "false",
+                            "tipoOferta": "",
+                            "precioOferta" :"",
+                            "duracionOferta": [                               
+                            ],
+                            "habitual": "true",
+                            "adquirido": "false"
+                        },
+                        {
+                            "nombre" : "queso rayado",
+                            "Descripcion" : "queso rayado para gratinar",
+                            "perecedero": "true",
+                            "cantidad": "1",
+                            "unidad": "bolsa",
+                            "precioVta": 1.97,
+                            "oferta": "true",
+                            "tipoOferta": "descuento",
+                            "precioOferta" :"1.47",
+                            "duracionOferta": [
+                                "28/05/2023",
+                                "10/06/2023"
+                            ],
+                            "habitual": "false",
+                            "adquirido": "true"
+                        }
+                    ]
+                    },
+                {
+                "seccion": "fruteria",
+                "productos": [
+                    {
+                        "nombre" : "manzanas",
+                        "Descripcion" : "manzanas golden",
+                        "perecedero": "true",
+                        "cantidad": "1",
+                        "unidad": "bolsa",
+                        "precioVta": 2.61,
+                        "oferta": "false",
+                        "tipoOferta": "",
+                        "precioOferta" : "",
+                        "duracionOferta": [],
+                        "habitual": "false",
+                        "adquirido": "false"
+                    },
+                    {
+                        "nombre" : "cebollas",
+                        "Descripcion" : "cebolla morada",
+                        "perecedero": "true",
+                        "cantidad": "6",
+                        "unidad": "pieza",
+                        "precioVta": 3.25,
+                        "oferta": "false",
+                        "tipoOferta": "",
+                        "precioOferta" : "",
+                        "duracionOferta": [],
+                        "habitual": "false",
+                        "adquirido": "false"
+                    }
+                ]
+                },
+                {
+                    "seccion": "conservas",                    
+                    "productos": [
+                        {
+                            "nombre" : "atún",
+                            "Descripcion" : "Atún en aceite de girasol",
+                            "perecedero": "false",
+                            "cantidad": "2",
+                            "unidad": "pack",
+                            "precioVta": 5.57,
+                            "oferta": "true",
+                            "tipoOferta": "descuento",
+                            "precioOferta" : 3.78,
+                            "duracionOferta": [
+                                "25/05/2023",
+                                "10/06/2023"
+                            ],
+                            "habitual": "false",
+                            "adquirido": "false"
+                        },
+        
+                        {
+                            "nombre" : "calamares",
+                            "Descripcion" : "calamares en salsa americana",
+                            "perecedero": "false",
+                            "cantidad": "3",
+                            "unidad": "pack de 3",
+                            "precioVta": 3.30,
+                            "oferta": "true",
+                            "tipoOferta": "3 x 2",
+                            "precioOferta" : "",
+                            "duracionOferta": [
+                                "27/05/2023",
+                                "08/06/2023"
+                            ],
+                            "habitual": "false",
+                            "adquirido": "false"
+                        }
+                       
+                    ]
+                }
+        
+            ]
+        }
+    ]
+}

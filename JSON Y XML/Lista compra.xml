@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<listaDeLaCompra>
+    <supermercado> Froiz 
+    <direccion> C. de Rodríguez Marín, 63, 28002 Madrid </direccion>
+    <geolocalizacion>  40.460607203644464 , -3.676297401329864 </geolocalizacion>
+    <secciones> 
+        <seccion> Panaderia 
+            <productos>
+                <producto1>            
+                    <nombre>pan</nombre>
+                    <descripcion>baguette</descripcion>
+                    <perecedero>true</perecedero>
+                    <cantidad>4</cantidad>
+                    <unidad>unidad</unidad>
+                    <precioVta>0.90</precioVta>
+                    <oferta>true</oferta>
+                    <tipoOferta>2 x 1</tipoOferta>
+                    <precioOferta></precioOferta>
+                    <duracionOferta>
+                        <inicio>27/05/2023</inicio>
+                        <fin>05/06/2023</fin>
+                    </duracionOferta>
+                    <habitual>true</habitual>
+                    <adquirido>true</adquirido>
+                </producto1>
+                <producto2>            
+                    <nombre>magdalenas</nombre>
+                    <descripcion>magdalenas martinez</descripcion>
+                    <perecedero>true</perecedero>
+                    <cantidad>1</cantidad>
+                    <unidad>bolsa</unidad>
+                    <precioVta>2.25</precioVta>
+                    <oferta>false</oferta>
+                    <tipoOferta></tipoOferta>
+                    <precioOferta></precioOferta>
+                    <duracionOferta>
+                        <inicio></inicio>
+                        <fin></fin>
+                    </duracionOferta>
+                    <habitual>false</habitual>
+                    <adquirido>false</adquirido>
+                </producto2>
+
+            </productos>
+        </seccion> 
+        <seccion> Fruteria
+        <productos>
+                <producto1>            
+                    <nombre>Aguacates</nombre>
+                    <descripcion>Aguacates</descripcion>
+                    <perecedero>true</perecedero>
+                    <cantidad>4</cantidad>
+                    <unidad>pieza</unidad>
+                    <precioVta>1.31</precioVta>
+                    <oferta>false</oferta>
+                    <tipoOferta></tipoOferta>
+                    <precioOferta></precioOferta>
+                    <duracionOferta>
+                        <inicio></inicio>
+                        <fin></fin>
+                    </duracionOferta>
+                    <habitual>false</habitual>
+                    <adquirido>false</adquirido>
+                </producto1>
+                <producto2>            
+                    <nombre>Tomate</nombre>
+                    <descripcion>Tomate rama huerta de Murcia</descripcion>
+                    <perecedero>true</perecedero>
+                    <cantidad>6</cantidad>
+                    <unidad>pieza</unidad>
+                    <precioVta>1.25</precioVta>
+                    <oferta>false</oferta>
+                    <tipoOferta></tipoOferta>
+                    <precioOferta></precioOferta>
+                    <duracionOferta>
+                        <inicio></inicio>
+                        <fin></fin>
+                    </duracionOferta>
+                    <habitual>false</habitual>
+                    <adquirido>false</adquirido>
+                </producto2>
+
+            </productos>
+        </seccion> 
+        <seccion> Carniceria 
+        <productos>
+                <producto1>            
+                    <nombre>Pechugas de pollo</nombre>
+                    <descripcion>Pechugas de pollo envasadas</descripcion>
+                    <perecedero>true</perecedero>
+                    <cantidad>1</cantidad>
+                    <unidad>paquete</unidad>
+                    <precioVta>6.27</precioVta>
+                    <oferta>true</oferta>
+                    <tipoOferta>descuento</tipoOferta>
+                    <precioOferta>5.80</precioOferta>
+                    <duracionOferta>
+                        <inicio>20/05/2023</inicio>
+                        <fin>05/06/2023</fin>
+                    </duracionOferta>
+                    <habitual>false</habitual>
+                    <adquirido>false</adquirido>
+                </producto1>
+                <producto2>            
+                    <nombre>Hamburguesas</nombre>
+                    <descripcion>Hamburguesa de pavo</descripcion>
+                    <perecedero>true</perecedero>
+                    <cantidad>2</cantidad>
+                    <unidad>paquete de 4</unidad>
+                    <precioVta>4.30</precioVta>
+                    <oferta>false</oferta>
+                    <tipoOferta></tipoOferta>
+                    <precioOferta></precioOferta>
+                    <duracionOferta>
+                        <inicio></inicio>
+                        <fin></fin>
+                    </duracionOferta>
+                    <habitual>false</habitual>
+                    <adquirido>false</adquirido>
+                </producto2>
+
+            </productos>
+        </seccion>
+    </secciones>
+    </supermercado>
+</listaDeLaCompra>
