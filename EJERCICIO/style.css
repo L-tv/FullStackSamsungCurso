@@ -1,0 +1,17 @@
+html {
+    background-color: bisque;
+}
+
+.grupo {
+    font-size: larger;
+    background-color: rgb(233, 197, 152);
+    color: rgb(104, 59, 33);
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+    border: 3px dotted yellow;
+}
+
+input {
+    margin: 10px;
+}
