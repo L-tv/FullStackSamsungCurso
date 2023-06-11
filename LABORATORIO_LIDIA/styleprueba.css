@@ -1,0 +1,118 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+html{
+  
+    background-image: url(img/fondo\ \(1\).JPG);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.form {
+    border: 5px solid #5f49d6;
+    border-radius: 20px;
+    border-style: groove;
+    padding: 30px ;
+    background: transparent;
+    backdrop-filter: blur(5px);
+}
+
+
+h1 {
+    text-align: center;
+    font-family: 'Montserrat','Trebuchet MS', 'Lucida Sans Unicode',  Arial, sans-serif;
+    font-size: 40px;
+    color:rgb(246, 182, 255); ;
+    text-decoration: underline dotted #5f49d6 10px;
+    text-shadow: 0 0 10px rgb(240, 130, 255);
+}
+
+
+
+
+.input-control {
+    color: rgb(246, 182, 255);
+    font-family: 'Montserrat','Trebuchet MS', 'Lucida Sans Unicode',  Arial, sans-serif;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+    text-shadow: 0 0 10px rgb(240, 130, 255);
+   
+}
+
+.input-control input {
+   
+    border: 2px solid #781791;
+    border-radius: 15px;
+    height: 30px;
+    margin: 5px;
+}
+
+.user {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-around;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border: 5px solid #9384e4;
+    border-radius: 20px;
+    border-style:dotted;
+}
+
+
+button.inputs {
+    height: 75px;
+}
+
+button.reset {
+    height: 75px;
+}
+
+button.hide {
+    display: block;
+    height: 75px;
+}
+ 
+button {
+
+    width: 300px;
+    padding: 10px;
+    margin: 20px 0 0 20px;
+    border: 5px solid;
+    border-image:linear-gradient(to right, #781791  51%, #42206d  100%) 1;
+    background-image: linear-gradient(to right, #8d2d97 0%, #451077  51%, #274499  100%);
+    background-size: 200% auto;
+    transition: all 0.5s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    
+    font-family: 'Montserrat','Trebuchet MS', 'Lucida Sans Unicode',  Arial, sans-serif;
+    font-size: large;   
+    color: rgb(204, 131, 238);
+}
+
+button:hover {
+
+    color: rgb(182, 174, 255);
+    background-position: right center;
+    border-image:linear-gradient(to left, #34217a  51%, #72307a  100%) 1;
+    font-weight: bolder;
+    text-shadow: 0 0 10px #963aff;
+    
+}
+
+button:active{
+    height: 100px;
+}  
+
+
+ .error{
+    color: hsl(0, 0%, 100%);
+    font-weight: bolder;
+    text-shadow: none;
+ }

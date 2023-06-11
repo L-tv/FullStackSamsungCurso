@@ -1,0 +1,82 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+html {
+    background-image: url(img/fondo\ \(1\).JPG);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center; 
+    
+}
+
+table{
+    
+    font-family:'Montserrat', Arial, Helvetica, sans-serif;
+    border: 10px solid;
+    border-image:linear-gradient(to left, #34217a  51%, #72307a  100%) 1;
+    
+}
+
+td{
+    text-align: left;
+    padding: 5px;
+}
+
+th{
+    text-align: left;
+    border: 4px solid #7e8dd3;
+    border-style: dashed;
+    padding: 5px;
+}
+
+tr:nth-child(even){
+   
+    background:transparent;    
+    backdrop-filter:blur(50px);
+    color: #bcc6f1;
+    font-weight: bold;
+    text-shadow: 0 0 10px #000000;
+    
+}
+
+tr:nth-child(odd){
+    background:transparent;
+    backdrop-filter: blur(50px) contrast(2);
+    color: #c3a5e5;
+    font-weight: bold;
+    text-shadow: 0 0 10px #000000;
+}
+
+button {
+    height: 75px;
+    width: 300px;
+    padding: 10px;
+    margin: 20px 0 0 20px;
+    border: 5px solid;
+    border-image:linear-gradient(to right, #781791  51%, #42206d  100%) 1;
+    background-image: linear-gradient(to right, #8d2d97 0%, #451077  51%, #274499  100%);
+    background-size: 200% auto;
+    transition: all 0.5s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    
+    font-family: 'Montserrat','Trebuchet MS', 'Lucida Sans Unicode',  Arial, sans-serif;
+    font-size: large;   
+    color: rgb(204, 131, 238);
+}
+
+button:hover {
+
+    color: rgb(182, 174, 255);
+    background-position: right center;
+    border-image:linear-gradient(to left, #34217a  51%, #72307a  100%) 1;
+    font-weight: bolder;
+    text-shadow: 0 0 10px #963aff;
+    
+}
+
+button:active{
+    height: 80px;
+}  
