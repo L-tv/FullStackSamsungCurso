@@ -73,9 +73,9 @@ include 'validacion.php';
         
             <button class="inputs" type="submit" name="submit" id="enviar"> ENVIAR </button>
             
-            <button class="reset" type="reset" name="reset" id="reset" onclick="location.href='http://localhost/laboratorio/index.php'" > RESETEAR </button>
+            <button class="reset" type="reset" name="reset" id="reset" onclick="location.href='http://localhost/laboratorio_lidia/index.php'" > RESETEAR </button>
             
-            <button class="<?= $hide ?>" type="button" name="consultar" id="consultar"  onclick="location.href='http://localhost/laboratorio/consulta.php'" hidden> CONSULTAR BASE DE DATOS </button>
+            <button class="<?= $hide ?>" type="button" name="consultar" id="consultar"  onclick="location.href='http://localhost/laboratorio_lidia/consulta.php'" hidden> CONSULTAR BASE DE DATOS </button>
     </form>
         
 </div>
