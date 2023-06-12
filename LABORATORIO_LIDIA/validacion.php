@@ -66,7 +66,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     }else if(!preg_match("/^[_.0-9a-zA-Z-ñÑ]+@([0-9a-zA-Z][0-9a-zA-Z-ñÑ]+.)+[a-zA-Z]{2,6}$/i", $email)) {
 
-        $emailErr = "The email address is incorrect";  
+        $emailErr = "El correo electronico es incorrecto";  
 
     } else {
 
