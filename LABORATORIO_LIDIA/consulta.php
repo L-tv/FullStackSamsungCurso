@@ -67,7 +67,7 @@
 ?>
 
 
-<button class="button" type="button" id="volver" name="volver" onclick="location.href='http://localhost/laboratorio/index.php'"  >Volver al formulario</button>
+<button class="button" type="button" id="volver" name="volver" onclick="location.href='http://localhost/laboratorio_lidia/index.php'"  >Volver al formulario</button>
 
 
 </body>
